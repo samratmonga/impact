@@ -1,0 +1,246 @@
+/* * --media query 1200  */
+
+@media only screen and (max-width: 1200px) {
+    .sec-position {
+        background-color: var(--grn);
+    }
+
+    .sec-position .card {
+        margin-top: 20px;
+    }
+
+    .s-1-con p {
+        color: var(--light);
+        /* padding-left: 20px; */
+        padding-right: 40px;
+    }
+
+    .s-1-con h1 {
+        font-size: 48px;
+        font-weight: var(--high);
+        color: #fff;
+        font-family: var(--font);
+        padding-right: 20px;
+    }
+
+    .sec-2-header {
+        padding-top: 40px;
+    }
+
+    .nav-head .nav-link {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .nav-head .nav-link::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 0%;
+        height: 100%;
+        border: none;
+        padding: 0;
+        transition: 0.5s all linear;
+    }
+/* 
+    .col-lg-4.mt-4.plans {
+        padding-left: 0;
+        padding-right: 0;
+    } */
+
+}
+
+/* --media query 992px  */
+@media only screen and (max-width:992px) {
+    .s-1-con p {
+
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .bussiness-plan {
+        transform: none;
+        z-index: none;
+        border: 3px solid var(--grn);
+    }
+
+    .blog-content a {
+        font-size: 22px;
+        color: #111;
+        font-weight: 700;
+    }
+
+    .blog-content {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px 30px;
+        padding-bottom: 40px;
+    }
+
+    .section-10 .one {
+        padding: 17px;
+
+    }
+
+    .paragraphic-details p:first-child {
+        color: #fff;
+        padding-bottom: 25px;
+    }
+    .contact-links p {
+        margin-bottom: 0 !important;
+        color: #fff;
+        margin-top: 0;
+    }
+
+
+
+}
+
+/* --media query at 768px */
+@media only screen and (max-width:768px) {
+    .s-1-con .btn {
+        padding: 14px 40px;
+        text-align: center;
+        border-radius: 100px;
+        color: #fff;
+        font-weight: var(--medium);
+        letter-spacing: 1px;
+        outline: none !important;
+
+    }
+
+    .frequent-question p {
+        margin-bottom: 1.5rem;
+    }
+    .col-lg-3.col-12.contact-links {
+        text-align: center;
+    }
+
+}
+
+/* --media query at 576px */
+@media only screen and (max-width:576px) {
+    .s-1-con h1 {
+        font-size: 35px;
+        font-weight: var(--high);
+        color: #fff;
+        font-family: var(--font);
+        padding-right: 20px;
+    }
+
+    .s-1-con p {
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 400;
+        font-size: 18px;
+        padding-right: 0;
+    }
+
+    .sec-2-header h1 {
+        font-size: 34px;
+        font-weight: 600;
+        position: relative;
+    }
+
+    .sec-2-header p {
+        color: var(--browny);
+        font-size: 17px;
+    }
+
+    #pills-tab {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .item-360 {
+        padding: 6px;
+        font-size: 15px;
+        font-size: 15px;
+    }
+
+    #pills-All-tab,
+    #pills-App-tab:focus,
+    #pills-Product-tab:focus,
+    #pills-Product-tab:focus,
+    #pills-Branding-tab:focus,
+    #pills-Books-tab:focus {
+        color: var(--grn);
+     
+       font-size: 15px;
+    }
+    .paragraphic-details p:first-child {
+        color: #fff;
+        padding-bottom: 18px;
+        font-size: 15px;
+    }
+    .paragraphic-details p:first-child {
+        color: #fff;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+    .s-1-img {
+        padding-top: 65px;
+    }
+    .s-1-con.my-md-3.my-sm-3.aos-init.aos-animate {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .s-1-con p {
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 400;
+        font-size: 17px;
+        padding-right: 0;
+        text-align: center;
+        
+    }
+ 
+
+}
+
+/* -- media query at 330px  */
+@media only screen and (max-width:320px) {
+    .bg-city .buuton-icon i {
+        position: absolute;
+        left: calc(50% - 47px);
+        top: calc(19% - 47px);
+    }
+
+    .btn.call-action-btn {
+        border: 2px solid #fff;
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    #pills-tab {
+        display: flex;
+        justify-content: center;
+        /* padding: 30px; */
+    }
+
+}
+
+@media(min-width:1400px) {
+    *.container {
+        max-width: 1320px !important;
+    }
+}
+@media (max-width:350px){
+    .btn.btn-2 {
+        padding: 5px;
+    }
+}
+@media (max-width:450px){
+    .s-1-con .btn {
+        padding: 14px 40px;
+        text-align: center;
+        border-radius: 100px;
+        color: #fff;
+        font-weight: var(--medium);
+        letter-spacing: 1px;
+        outline: none !important;
+        display: block;
+    }
+}
